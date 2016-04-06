@@ -1,0 +1,51 @@
+html {
+  min-height:100%;
+  position:relative;
+}
+
+body {
+  background-color: #213932;
+  padding: 0px;
+  margin: 0px;
+  height:100%;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+
+#pictures-container {
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  background: #ABCDEF;
+  border: 60px solid #ABCDEF;
+}
+
+#top-row {
+  height: 50%;
+  width: 100%;
+}
+
+#bottom-row {
+  height: 50%;
+  width: 100%;
+}
+
+img {
+  height: calc(100% - 20px);
+  width: calc(50% - 20px);
+  float: right;
+  border: 10px solid #213932;
+}
