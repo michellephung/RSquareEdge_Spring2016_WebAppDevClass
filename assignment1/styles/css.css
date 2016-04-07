@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-color: #213932;
+  background-color: #203F31;
   padding: 0px;
   margin: 0px;
   height:100%;
@@ -29,8 +29,8 @@ body {
   top: 50%;
   transform: translateY(-50%);
   overflow: hidden;
-  background: #ABCDEF;
-  border: 60px solid #ABCDEF;
+  background: #F0DCB0;
+  border: 100px solid #F0DCB0;
 }
 
 #top-row {
@@ -44,8 +44,8 @@ body {
 }
 
 img {
-  height: calc(100% - 20px);
-  width: calc(50% - 20px);
+  height: calc(100% - 0px);
+  width: calc(50% - 0px);
   float: right;
-  border: 10px solid #213932;
+  border: 0px solid #203F31;
 }
