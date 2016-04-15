@@ -1,0 +1,51 @@
+html {
+  min-height:100%;
+  position:relative;
+}
+
+body {
+  background-color: #203F31;
+  padding: 0px;
+  margin: 0px;
+  height:100%;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+}
+
+#pictures-container {
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  background: #F0DCB0;
+  border: 100px solid #F0DCB0;
+}
+
+#top-row {
+  height: 50%;
+  width: 100%;
+}
+
+#bottom-row {
+  height: 50%;
+  width: 100%;
+}
+
+img {
+  height: calc(100% - 0px);
+  width: calc(50% - 0px);
+  float: right;
+  border: 0px solid #203F31;
+}
